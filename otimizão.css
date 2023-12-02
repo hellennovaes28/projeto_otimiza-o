@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 172px;
+    height: 168px;
+    border-radius: 80%;
+    margin-top: 24px;
+}
+header p{
+    font-size:27px;
+    color: rgb(31, 31, 145);
+}
+h1 {
+    margin-bottom: 10px;
+    color: rgb(31, 31, 145);
+}
+
+h2{
+    margin-bottom: 10px;
+    color: rgb(31, 31, 145);
+}
+.info p {
+    margin-bottom: 5px;
+}
+
+.resumo,
+.academico {
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.dark-theme {
+    background-color: #000000;
+    color: #fff;
+}
+
+.zap {
+    display: flex;
+    justify-content: end;
+}
+.abrirzap{
+    position: fixed;
+    bottom:30px ;
+    right: 20px;
+}
+.imgzap{
+    width: 70px;
+    height: 70px;
+}
+img{
+    transform-origin: center center;
+    object-fit: cover;
+height: 100%;
+width: 100%;
+
+}
