@@ -70,3 +70,10 @@ h2{
     width: 70px;
     height: 70px;
 }
+img{
+    transform-origin: center center;
+    object-fit: cover;
+height: 100%;
+width: 100%;
+
+}
